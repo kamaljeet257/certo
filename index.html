@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>certo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="./assets/js/script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header_container">
+            <div class="navbar_row">
+                <div class="logo">
+                    <img src="./assets/images/logo.webp" alt="logo image">
+                </div>
+                <div class="toggle" onclick="toggleMenu();"></div>
+                <div class="nav">
+                    <ul class="menu">
+                        <li><a href="#">iphone</a></li>
+                        <li><a href="#">Android</a></li>
+                        <li><a href="#">Help</a></li>
+                        <li>
+                            <div class="dropdown">
+                                <div class="dropdown-placeholder">
+                                    <span class="dropdown-placeholder-label">Compony</span>
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 24 24"
+                                        class="chevron">
+                                        <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
+                                    </svg>
+                                </div>
+                                <div class="dropdown-items">
+                                </div>
+                            </div> 
+                        </li>
+                    </ul>
+                    <ul class="signin">
+                        <li><a id="signin" href="#">Sign in</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>       
+</body>
+</html>
