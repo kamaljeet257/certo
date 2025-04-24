@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <script type="text/javascript" src="./assets/js/script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
     <header>
@@ -17,7 +18,6 @@
                 <div class="logo">
                     <img src="./assets/images/logo.webp" alt="logo image">
                 </div>
-                <div class="toggle" onclick="toggleMenu();"></div>
                 <div class="nav">
                     <ul class="menu">
                         <li><a href="#">iphone</a></li>
@@ -38,13 +38,37 @@
                                 </div>
                             </div> 
                         </li>
-                    </ul>
-                    <ul class="signin">
                         <li><a id="signin" href="#">Sign in</a></li>
                     </ul>
                 </div>
+                <div class="toggle" onclick="toggleMenu();"></div>
             </div>
         </div>
-    </header>       
+    </header>
+    <section>
+        <div class="hero_container">
+            <div class="hero_row">
+                <div class="hero_col">
+                    <div class="hero_content_box">
+                        <h1>Your mobile privacy is our mission</h1>
+                        <p>Think your phone has been hacked? Our trusted apps make it easy for you to scan, detect and remove threats from your iPhone and Android devices.</p>
+
+                        <div class="hero_button">
+                            <button><a href="#">Get Certo for iPhone <i class="fas fa-arrow-right"></i></a></button>
+                            <button><a href="#">Get Certo for Android</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero_col">
+                    <div class="hero_content_box">
+                        <img src="./assets/images/android-dashboard-certo-2.png.webp" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="hero_figure">
+                <img src="./assets/images/div.webp" alt="">
+            </div>
+        </div>
+    </section>      
 </body>
 </html>
